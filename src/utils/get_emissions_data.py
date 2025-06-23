@@ -23,4 +23,6 @@ def get_emissions_data(year:int)->dict:
         
     return emissions_data
 
-print(get_emissions_data(2015)['GBR'])
+
+if __name__ == '__main__':
+    print(len(get_emissions_data(2015)))
